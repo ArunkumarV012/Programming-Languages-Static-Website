@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.m-container {
+    background-image: url("https://fossbytes.com/wp-content/uploads/2016/06/most-important-programming-languages.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-card {
+    border-radius: 18px;
+    background-color: grey;
+    width: 50vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-top: 67vh;
+    margin-bottom: 15px;
+    color: white;
+    padding: 10px;
+}
+
+.bg-container {
+    background-color: lightblue;
+    background-size: cover;
+    width: 100vw;
+}
+
+.heading {
+    font-style: italic;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 25px;
+}
+
+.card-image {
+    height: 50vh;
+    width: 65vw;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-top: 20px;
+    margin: 50px;
+}
+
+.head {
+    font-size: 28px;
+    font-style: italic;
+    padding-top: 45px;
+    padding-left: 25px;
+}
+
+.style {
+    list-style-type: disc;
+}
+
+.paragraph {
+    font-weight: 400;
+    text-decoration: underline;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.pad {
+    padding-left: 25px;
+    font-weight: 50;
+}
+
+.detail-image {
+    margin-top: 30px;
+    border-radius: 15px;
+    height: 70vh;
+    width: 75vw;
+}
+
+.detail-head {
+    padding: 22px;
+}
+
+.butn {
+    margin: 20px;
+}
+
+.design {
+    text-decoration: underline;
+}

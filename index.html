@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>bestcode.in</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionmainframe">
+        <div class="m-container d-flex flex-row justify-content-center">
+            <div class="main-card d-flex flex-=row justify-content-center">
+                <div>
+                    <h1 class="heading">Welcome to our Website</h1>
+                    <p class="text-center">Please click (Get Started) to know more details <br />about the
+                        programming languages.</p>
+                    <div class="text-center">
+                        <button class="btn btn-primary text-white bg-dark" onclick="display('sectionhomepage')">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-container" id="sectionhomepage">
+        <h1 class="heading">Top Level Programming Languages</h1>
+        <div class="card-container d-flex flex-row justify-content-between">
+            <img class="card-image" src="https://www.shutterstock.com/shutterstock/photos/1673106307/display_1500/stock-photo-c-general-purpose-programming-language-concept-career-c-programmer-creation-of-software-1673106307.jpg" />
+            <div>
+                <h1 class="head">Turbo C++</h1>
+                <p class="paragraph">Advantages of C++ Over Other Languages
+                <ol class="style">
+                    <li>Object-Oriented. C++ is an object-oriented programming language which means that the main focus is on objects and manipulations around these objects. ...</li>
+                    <li>Speed. ...</li>
+                    <li>Compiled. ...</li>
+                    <li>Rich Library Support. ...</li>
+                    <li>Pointer Support. ...</li>
+                    <li>Closer to Hardware.</li>
+                </ol>
+                </p>
+                <div class="text-center">
+                    <button onclick="display('sectionc++')" class="btn btn-primary text-left">View More Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-container d-flex flex-row justify-content-center">
+            <img class="card-image" src="https://img.freepik.com/premium-photo/python-programming-code-abstract-technology-background_272306-146.jpg?w=740" />
+            <div>
+                <h1 class="head">Python</h1>
+                <p class="paragraph">Python Details And Features</p>
+                <p class="pad">Python is a programming language that is powerful, adaptable, and easy to learn. Python also has a vibrant community. Because it supports a wide range of programming paradigms, it is widely found in various businesses. It also automatically manages memory.</p>
+                <div class="text-center">
+                    <button class="btn btn-primary text-left" onclick="display('sectionpython')">View More Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-container d-flex flex-row justify-content-center">
+            <img class="card-image" src="https://img.freepik.com/premium-photo/conceptual-java-programming-language-with-person-with-laptop_102583-4759.jpg?w=740" />
+            <div>
+                <h1 class="head">Java</h1>
+                <p class="paragraph">Java Details And Features</p>
+                <p class="pad">#Java is easy to learn. Java was designed to be easy to use and is therefore easy to write, compile, debug, and learn than other programming languages. Java is object-oriented. This allows you to create modular programs and reusable code.</p>
+                <div class="text-center">
+                    <button class="btn btn-primary text-left" onclick="display('sectionjava')">View More Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-container d-flex flex-row justify-content-center">
+            <img class="card-image" src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901782.jpg?w=740&t=st=1704003159~exp=1704003759~hmac=f1259c8001afa654b3b01e68f2336c0066d227a39b5b7258685231a1e57d6c0e" />
+            <div>
+                <h1 class="head">HTML,CSS,Java Script</h1>
+                <p class="paragraph">Web Developmebt Languages</p>
+                <p class="pad">Like we mentioned earlier, HTML creates and structures the website's content, CSS adds style and formatting to these structures, and then JavaScript turns those stylized components into something that a user can interact with.</p>
+                <div class="text-center">
+                    <button class="btn btn-primary text-left" onclick="display('sectionfullstack')">View More Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-container d-flex flex-row justify-content-center">
+            <img class="card-image" src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010129.jpg?w=740&t=st=1704004140~exp=1704004740~hmac=9db267cb1c95c9c680bafe1fe3e75d9535a23fe1b51235d28edf60c24692a7dd" />
+            <div>
+                <h1 class="head">Kotlin</h1>
+                <p class="paragraph">Kotlin Uses and Features</p>
+                <p class="pad">It reduces time spent writing and maintaining the same code for different platforms while retaining the flexibility and benefits of native programming. Kotlin applications will work on different operating systems, such as iOS, Android, macOS, Windows, Linux, watchOS, and others.</p>
+                <div class="text-center">
+                    <button class="btn btn-primary text-left" onclick="display('sectionkotlin')">View More Details</button>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary butn" onclick="display('sectionmainframe')">Back</button>
+    </div>
+
+    <div id="sectionc++">
+        <div class="d-flex flex-row justify-content-center">
+            <img class="detail-image" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Top_12_Uses_of_C.jpg" />
+        </div>
+        <h1 class="detail-head">Turbo C++</h1>
+        <p class="detail-head">C++ is a general-purpose, free-form programming language created by Bjarne Stroustrup in 1979 at Bell Labs in Murray Hill, New Jersey, as an enhancement to the C language. Since it is an extension of C, it is also known as C with classes. It was specifically designed with an orientation towards large systems and resource-constrained software. Since its inception, C++ has expanded significantly over time. The latest version (C++20) has object-oriented, functional, and generic features in addition to low-level memory manipulation. The biggest advantage of C++ is that
+            it is super scalable and allows developers to have a lot of control over how their applications use up resources.
+            <a href="https://codinglang.ccbp.tech/id#sectionuses" onclick="display('sectionusage')" class="design">Click For more Details</a> <br />
+            <a href="https://turbo-c.en.softonic.com/" target="_blank">
+                <button class="butn">Download Now</button></a>
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary butn" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionusage">
+        <p class="detail-head">
+            Top 12 Uses of C++
+            Table of Contents
+            Overview of C++What is C++ Used For?Advantages of C++ Over Other LanguagesUses of C++ (With Real-World Applications)Ready to Start?
+            ⏱️ 3min read Difficulty level: Easy
+            113K+ career-aspirant learners have read this article 👨🏻‍💻 on C++ programming!
+            Whether you’re looking to start coding for a new career, a part-time hobby, or just to enhance your current role, the first thing that you need to do is decide on a programming language to start with. One go-to programming language commonly used by developers all over the world is C++. In fact, most video games, embedded systems, IoT devices, or resource-heavy AI applications run on C++. With so many uses of C++, it is recommended as one of the best languages to learn.
+
+            Want a Top Software Development Job? Start Here!
+            Full Stack Development-MEANEXPLORE PROGRAMWant a Top Software Development Job? Start Here!
+            🕵🏻‍♂️ Did You Know?
+            Some of the most-asked interview questions for C++ programmer/ developer roles are:
+        <ol>
+            What is the difference between C and C++?
+            What are classes and objects in C++?
+            What are access modifiers?
+            Have a great start to finding the answers & strengthening your C++ programming skills by availing this free course on ‘Introduction to C++ course’ with a SkillUp verified certificate 📃upon completion.
+        </ol>
+        Overview of C++
+        C++ is a general-purpose, free-form programming language created by Bjarne Stroustrup in 1979 at Bell Labs in Murray Hill, New Jersey, as an enhancement to the C language. Since it is an extension of C, it is also known as C with classes. It was specifically designed with an orientation towards large systems and resource-constrained software. Since its inception, C++ has expanded significantly over time. The latest version (C++20) has object-oriented, functional, and generic features in addition to low-level memory manipulation. The biggest advantage of C++ is that it is super scalable and allows developers to have a lot of control over how their applications use up resources.
+
+
+
+
+        Enroll in this Introduction to C++ course now, unlock the verified certificate & become job-ready for C++ programmer/developer job roles!
+        Also Read: Top 7 Practical Applications of C++ and the Way to Build a Career in the Field
+
+        What is C++ Used For?
+        C++ (or “C-plus-plus”) is a general-purpose programming and coding language. C++ is used in developing browsers, operating systems, and applications, as well as in-game programming, software engineering, data structures, etc.
+
+        Advantages of C++ Over Other Languages<br />
+
+        1. Object-Oriented <br />
+        C++ is an object-oriented programming language which means that the main focus is on objects and manipulations around these objects. This makes it much easier to manipulate code, unlike procedural or structured programming which requires a series of computational steps to be carried out.
+
+        Want a Top Software Development Job? Start Here!
+        Full Stack Development-MEANEXPLORE PROGRAMWant a Top Software Development Job?<br />
+        2. Speed<br />
+        When speed is a critical metric, C++ is the most preferred choice. The compilation and execution time of a C++ program is much faster than most general-purpose programming languages.<br />
+
+        3. Compiled<br />
+        Unlike other programming languages where no compilation is required, every C++ code has to be first compiled to a low-level language and then executed.
+        <br />
+
+        Become job-ready for programmer/developer roles now with this Introduction to C++ course for free!
+        4. Rich Library Support<br />
+        The C++ Standard Template Library (STL) has many functions available to help write code quickly. For example, there are STLs for various containers like hash tables, maps, sets, etc.
+        <br />
+        5. Pointer Support<br />
+        C++ also supports pointers which are often not available in other programming languages.
+        <br />
+        6. Closer to Hardware<br />
+        C++ is closer to hardware than most general-purpose programming languages. This makes it very useful in those areas where hardware and software are closely coupled together, and low-level support is needed at the software level.
+        <br />
+        Showcase a verified certificate of completion on your resumé to advance your Developer career by 2X faster with salary hike
+
+
+
+        Professionals with a verified certificate for your skills on your resumé land top-paying job role 2X faster!
+
+        Unlock your certificate on C++ Basics now!<br />
+
+        Uses of C++ (With Real-World Applications)<br />
+        Almost all the programs and systems that you use or a part of their codebase is written either in C or C++. Be it Windows, a web browser, your favorite game, or a video editing software, the uses of C++ can be found in almost all applications today. Here are some interesting areas where C++ is popularly used.
+
+        1. Operating Systems<br />
+        C++ is a fast and strongly-typed programming language which makes it an ideal choice for developing operating systems. Mac OS X has large amounts written in C++. Most of the software from Microsoft like Windows, Microsoft Office, IDE Visual Studio, and Internet Explorer are also written in C++.
+        <br />
+        2. Games<br />
+        Since C++ is closer to hardware, game development companies use it as their primary choice to develop gaming systems. It can easily manipulate resources and can override the complexities of 3D games and multiplayer networking.
+        <br />
+        3. GUI Based Applications<br />
+        C++ is also used to develop GUI-based and desktop applications. Most of the applications from Adobe such as Photoshop, Illustrator, etc. are developed using C++.
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary butn" onclick="display('sectionc++')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionpython">
+        <div class="d-flex flex-row justify-content-center">
+            <img class="detail-image" src="https://d8it4huxumps7.cloudfront.net/uploads/images/650880087c0f5_features_of_python_01.jpg" />
+        </div>
+        <h1 class="detail-head">Python</h1>
+        <p class="detail-head">Since 1843, there have been a variety of programming languages developed by programmers to solve real-world challenging problems. But does every programming language stand
+            out in the limelight? Obviously NOT. Because it completely depends on their core features, such as approachability, flexibility, portability, responsibility, etc. In other words, the essential features of modern programming languages are taken into consideration while considering their utility.
+            In this article, we are going to discuss how Python - a high-level versatile programming language, has become a popular language amongst programmers. We will also discuss the features of Python and understand why this language is the preferred language of the majority of programmers.
+            <a href="https://codinglang.ccbp.tech/id#sectionuses" onclick="display('sectionusagepython')" class="design">Click For more Details</a> <br />
+            <a href="https://www.python.org/" target="_blank">
+                <button class="butn">Download Now</button></a>
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary butn" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionusagepython">
+        <p class="detail-head">
+            Here are a few features of Python that make it a popular programming language in today's time.<br />
+            1. Portable Language<br />
+            It is a cross-platform language. It can run on Linux, macOS, and Windows. For example, you can run the Python code for Windows in Linux or macOS, too.
+            <br />
+            2. Standard Library<br />
+            It offers various modules like operators, mathematical functions, libraries such as NumPy, Pandas, Tensorflow, etc., and packages paving the way for the developers to save time to avoid re-writing the codes from scratch. To provide more functionality and packages, they also provide Python Package Index.
+            <br />
+            3. High-Level Language<br />
+            It is a high-level, general-purpose programming language. Unlike machine language like C, C++, It is a human-readable language. In other words, even a layman can understand the programs.
+            <br />
+            Also Read: Difference between high-level and low-level programming languages
+            <br />
+            4. Easy to learn and use<br />
+            It is easy to understand and easy to code, and anyone can learn Python within a few days. For example, a simple Python program to add two numbers is as follows:
+            <br />
+            a = 8<br />
+            b = 9<br />
+            print(a+b)<br />
+
+            We have completed this program within three lines. Whereas in Java, C++ and C, it takes more lines. That is why Python is known as an easy and precise language.
+            <br />
+            5. Dynamic Language<br />
+            Declaring the type of a variable is not needed. For example, let us declare an integer number 7 for a variable a. Rather than declare it as:
+            <br />
+            int a = 7 ( this is necessary for statically-typed language like C)
+            We declare it as<br />
+            a = 7<br />
+
+            But, the programmers have to be careful regarding runtime errors.
+            <br />
+            6. Extensible Language<br />
+            Code can be used to compile in C or C++ language so that it can be utilized for our Python code. This is achieved because it converts the program to byte code.
+            <br />
+            7. Interpreted Language<br />
+            Line-by-line execution of source code, converted into byte code; thus, compiling the code is not necessary, making it easy to debug if required.
+            <br />
+            8. Object-Oriented Programming Language<br />
+            It supports procedural, functional, structural, and also object-oriented language such as abstraction, encapsulation, inheritance, and polymorphism which is considered important by the Python coder.
+            <br />
+            9. Free and Open-source libraries<br />
+            It is a free open-source platform that can be downloaded easily from their Official Website.
+            <br />
+            10. Support is provided for Graphical User Interface<br />
+            Lots of Graphical User Interface frameworks are available in Python, thus helping the software user, and it sticks to platform-specific technologies. It can be used in software development, web development, etc
+            <br />
+            Applications of Python<br />
+
+            Python has always been a favorite programming language for programmers who start their careers in the field of Information Technology. This may be because of the advantages of Python and that it is easy to learn and apply. But there is a disclaimer. Python is a good language. But, to get mathematic logic, we request you get a good grip on programming languages like C, C++, and Java. These programming languages are tedious, but understanding their basics is important for anyone who wants to learn Python. Here are the top five applications of Python.
+        <ol>
+            <li>Web development</li>
+            <li>Data Analysis</li>
+            <li>Artificial Intelligence, Machine Learning, Deep Learning,</li>
+            <li>Data Science</li>
+            <li>Software Development</li>
+        </ol>
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary butn" onclick="display('sectionpython')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionjava">
+        <div class="d-flex flex-row justify-content-center">
+            <img class="detail-image" src="https://devblogs.microsoft.com/java/wp-content/uploads/sites/51/2021/09/image3-2.png" />
+        </div>
+        <h1 class="detail-head">Java</h1>
+        <p class="detail-head">Java is a high-level and purely object oriented programming language. It is platform independent, robust, secure, and multithreaded programming language which makes it popular among other OOP languages. It is widely used for software, web, and mobile application development, along with this it is also used in big data analytics and server-side
+            technology. Before moving towards features of Java, let us see how Java originated.
+            In 1990, Sun Microsystems Inc. started developing software for electronic devices. This project was called the Stealth Project (later known as Green Project). In 1991, Bill Joy, James Gosling,
+            Mike Sheradin, and Patrick Naughton started working on this project. Gosling decided to use C++ to develop this project, but the main problem he faced is that C++ is platform dependent language and could not work on different electronic device processors. As a solution to this problem, Gosling started developing a new language that can be worked over different platforms, and this gave birth to the most popular, platform-independent language known as Oak. Yes, you read that right, Oak, this was the first name of Java. But, later it was changed to Java due to copyright issues (some other companies already registered with this name). But why
+            “Java” though? Let’s see the story behind this name Java and its logo which is a coffee mug. See the image below.
+            <a href="https://codinglang.ccbp.tech/id#sectionuses" onclick="display('sectionusagejava')" class="design">Click For more Details</a> <br />
+            <a href="https://www.java.com/download/ie_manual.jsp" target="_blank">
+                <button class="butn">Download Now</button></a>
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary butn" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionusagejava">
+        <p class="detail-head">
+            1. Simple<br />
+            Java is a simple programming language and easy to understand because it does not contain complexities that exist in prior programming languages. In fact, simplicity was the design aim of Javasoft people, because it has to work on electronic devices where less memory/resources are available. Java contains the same syntax as C, and C++, so the programmers who are switching to Java will not face any problems in terms of syntax. Secondly, the concept of pointers has been completely removed from Java which leads to confusion for a programmer and pointers are also vulnerable to security.
+            <br />
+            2. Object-Oriented<br />
+            Java is an Object Oriented Programming Language, which means in Java everything is written in terms of classes and objects. Now, what is an Object? The object is nothing but a real-world entity that can represent any person, place, or thing and can be distinguished from others. Every object near us has some state and behaviour associated with it.
+            <br />
+            For example, my mobile phone is a real-world entity and has states like colour, model, brand, camera quality, etc, and these properties are represented by variables. Also mobile is associated with actions like, calling, messaging, photography, etc and these actions are represented by methods in Java.
+            <br />
+            Now, we saw what an object is and also learned about the state and behaviour associated with the object.
+            <br />
+            What is Class? A collection of objects that exhibits the same state and behavior will come under the same group called class. For example, Samsung, Apple, Vivo, Oppo, Xiaomi, etc are different brands making various models of smartphones, but they all come under the same group known as Mobile Phones.
+            <br />
+            The main concepts of any Object Oriented Programming language are given below:
+            <br />
+        <ol>
+            Class and Object
+            Encapsulation
+            Abstraction
+            Inheritance
+            Polymorphism
+        </ol>
+        3. Platform Independent<br />
+        The design objective of javasoft people is to develop a language that must work on any platform. Here platform means a type of operating system and hardware technology. Java allows programmers to write their program on any machine with any configuration and to execute it on any other machine having different configurations.
+        <br />
+        In Java, Java source code is compiled to bytecode and this bytecode is not bound to any platform. In fact, this bytecode is only understandable by the Java Virtual Machine which is installed in our system. What I meant to say is that every operating system has its own version of JVM, which is capable of reading and converting bytecode to an equivalent machine’s native language. This reduces the overhead of programmers writing system-specific code. Now programmers write programs only once, compile them, generate the bytecode and then export it anywhere.
+        <br />
+        4. Portable<br />
+        The WORA (Write Once Run Anywhere) concept and platform-independent feature make Java portable. Now using the Java programming language, developers can yield the same result on any machine, by writing code only once. The reason behind this is JVM and bytecode. Suppose you wrote any code in Java, then that code is first converted to equivalent bytecode which is only readable by JVM. We have different versions of JVM for different platforms. Windows machines have their own version of JVM, Linux has its own and macOS has its own version of JVM. So if you distribute your bytecode to any machine, the JVM of that machine would translate the bytecode into the respective machine code. In this way portability lets the programmers focus on development and productivity rather than writing different code for different platforms.
+        <br />
+        5. Robust<br />
+        The Java Programming language is robust, which means it is capable of handling unexpected termination of a program. There are 2 reasons behind this, first, it has a most important and helpful feature called Exception Handling. If an exception occurs in java code then no harm will happen whereas, in other low-level languages, the program will crash.
+        <br />
+        Another reason why Java is strong lies in its memory management features. Unlike other low-level languages, Java provides a runtime Garbage collector offered by JVM, which collects all the unused variables. The garbage collector is a special program under JVM that runs from time to time and detects any unused variables and objects and removes them from the memory to free up space. But in the case of other prior languages, there is no such program to handle memory management, programmers are solely responsible for allocating and deallocating memory spaces, otherwise, the program may crash due to insufficient memory
+        <br />
+        6. Secure<br />
+        In today’s era, security is a major concern of every application. As of now, every device is connected to each other using the internet and this opens up the possibility of hacking. And our application built using java also needs some sort of security. So Java also provides security features to the programmers. Security problems like virus threats, tampering, eavesdropping, and impersonation can be handled or minimized using Java. Encryption and Decryption feature to secure your data from eavesdropping and tampering over the internet. An Impersonation is an act of pretending to be another person on the internet. The solution to
+        <br />
+        The impersonation problem is a digital signature, a file that contains personal identification information in an unreadable format. Digital Signature can be generated using Java. Virus is a program that is capable of harming our system and this is generally spread with .exe files, image files, and video files but cannot be spread using a text file the good thing is java bytecode is also a text file (yes .class file also a text file with non-human-readable format). Even if somebody tries to add virus code in a bytecode file, then also we are safe, because our JVM is smart enough to distinguish viruses from normal programs. If a virus is found in a bytecode file, JVM will throw an exception and abort execution.
+        <br />
+        7. Interpreted<br />
+        In programming languages, you have learned that they use either the compiler or an interpreter, but Java programming language uses both a compiler and an interpreter. Java programs are compiled to generate bytecode files then JVM interprets the bytecode file during execution. Along with this JVM also uses a JIT compiler (it increases the speed of execution).
+        <br />
+        8. Multi-Threaded<br />
+        Thread is a lightweight and independent subprocess of a running program (i.e, process) that shares resources. And when multiple threads run simultaneously is called multithreading. In many applications, you have seen multiple tasks running simultaneously, for example, Google Docs where while typing text, the spell check and autocorrect tasks are running.
+        <br />
+        The server also uses multithreading to provide its services to multiple client requests. In Java, you can create threads in two ways, either by implementing the Runnable interface or by extending the Thread class.
+        <br />
+        Conclusion <br />
+        In this article, we have discussed the design aim of Java i.e, James Gosling wants to develop Java as a system-independent language that must work on the WORA (Write Once Run Anywhere) principle. We also have learned the top features of Java, which makes java the most popular among other programming languages. By now, you must have got a glimpse of Java. Along with all this, we also discussed problems in C++, which have been resolved in Java.
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary butn" onclick="display('sectionjava')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionfullstack">
+        <div class="d-flex flex-row justify-content-center">
+            <img class="detail-image" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_Full_Stack_Development.jpg" />
+        </div>
+        <h1 class="detail-head">Full Stack Development</h1>
+        <p class="detail-head">Full stack development is the process of designing, creating, testing, and deploying a complete web application from start to finish. It involves working with various technolog
+            ies and tools, including front-end web development, back-end web development, and database development. And full stack development is a term used to describe a software engineer or developer who works with both the front and back end of a website or application. A full-stack developer is comfortable working with front-end and back-end technologies that power a website or application.
+            Full-stack developers are often responsible for the entire web application development process, from start to finish, which means they must have a strong understanding of all the technologies and tools involved in web development.
+            They also need to work effectively with others on a team, as web development is typically a collaborative process. Most full-stack developers have a firm foundation in web development technologies, such as HTML, CSS, and JavaScript. They also have experience with server-side technologies such as PHP, Ruby on Rails, and Node.js.
+            In addition to their technical skills, full-stack developers also deeply understand how the various parts of a website or application work together.
+            Full-stack developers are in high demand because they can build a website or application from start to finish and quickly identify and fix any problems that may arise. If you're looking to hire a full-stack developer, ask about their experience with front-end and back-end technologies.
+            <a href="id#sectionusagefullstack" onclick="display('sectionusagefullstack')" class="design">Click For more Details</a> <br />
+            <a href="https://code.visualstudio.com/docs/?dv=win64user" target="_blank">
+                <button class="butn">Download Now For the Best IDE</button></a>
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary butn" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionusagefullstack">
+        <p class="detail-head">
+            Full stack developers must have knowledge of an entire technology stack, i.e., the set of technologies that are used to build an end-to-end application quickly and efficiently. For example, if they want to build an application using the MEAN stack, they should know how to work with MongoDB, Express, Angular and Node.
+            Full stack developers should be able to judge whether the selected technologies are the right choice for their project during the early phases. Some responsibilities of a full stack developer are to:
+            <br />
+            Help in choosing the right technologies for the project development and testing both on the front end and the back end.
+            <br />
+            Write clean code across the stack by following the best practices of the tools used.
+            <br />
+            Be up to date with the latest technologies and tools to make the best technology usage decisions.
+            <br />
+            What languages do full stack developers use?<br />
+            Full stack developers are free to use any set of languages that are compatible with each other and the overall application framework. JavaScript is a popular language often used by full-stack developers as it’s one of the very few languages that can be used both on the front end and back end. Companies will most likely hire a full stack developer for smaller or medium-size projects. Some popular languages are:
+            <br />
+            Front end: HTML, CSS, JavaScript.<br />
+            Back end: Python, Java, R, Ruby, Node.js, PHP.<br />
+            It’s also a popular and convenient practice to use full technology stacks like MEAN stack, MERN stack, Ruby on Rails, and LAMP for faster and more efficient development, and an easier learning curve.
+            <br />
+
+            <br />
+            Front end vs back end vs full stack<br />
+            Applications that require higher scalability and more complex workflows require broader skill sets and collaboration across teams. For example, the front end may be handled by the UI team, and the back end by another team. In some organizations, individuals will be required to work on both the front-end and back-end implementation of a feature. This is where full stack developers would come into play.
+            <br />
+            Front-end developers<br />
+            These developers handle the UI of a web application (or website)—for example, visual effects, frames, navigation, and forms. They focus mainly on user experience and use HTML, CSS, and JavaScript as programming languages.
+            <br />
+            Back-end developers<br />
+            They deal with the business logic, security, performance, scalability, and handling request-response of the application. They create or use frameworks to design the core application workflows and use technologies like JavaScript, Python, Java, and .NET.
+            <br />
+            Full stack developers<br />
+            They are responsible for coding end-to-end workflows by using both front-end and back-end technologies. MERN stack and MEAN stack are examples of JavaScript-based technology stacks that full stack developers can use to build end-to-end applications.
+            <br />
+            Full stack development advantages<br />
+            There are many advantages of hiring full stack developers for web application development:
+            <br />
+            Complete ownership and understanding of the project
+            <br />
+            Saves both project time and cost, and enhances productivity
+            <br />
+            Faster bug fixing due to knowledge of complete system
+            <br />
+            Easy knowledge transfer to other team members
+            <br />
+            Better division of work amongst team members
+            <br />
+            Conclusion<br />
+            Full stack development provides a faster and more efficient development experience to build web applications, as team members are equipped with the knowledge of various technologies and tools and can use their diverse knowledge for development as well as future research. The two most popular technology stacks—i.e., MEAN stack and MERN stack—use MongoDB
+            as their core database, which has a flexible schema and provides scalability and high availability for any project size.
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary butn" onclick="display('sectionfullstack')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionkotlin">
+        <div class="d-flex flex-row justify-content-center">
+            <img class="detail-image" src="https://www.spaceotechnologies.com/wp-content/uploads/2021/03/Kotlin-Features-to-Enhance-Android-App.png" />
+        </div>
+        <h1 class="detail-head">Kotlin</h1>
+        <p class="detail-head">
+            Kotlin’s top features, including its concise and expressive syntax, lazy loading syntax, data classes, null safety, extension functions, smart casts, default
+            and named arguments, and lambda expressions all contribute to a more streamlined and efficient Android app development process.
+            These features improve code readability, maintainability, and overall performance, making Kotlin a powerful language choice for modern Android development.
+            Kotlin is expected to make the Android app development process faster, considering the language is interoperable with Java. And the best advantage of new Kotlin programming language is the lesser number of lines of code.
+            There are, as a matter of fact, many more useful Kotlin features in Android, and in this blog, we’re going to cover those features to help you improve your Android application development process.
+            <a href="id#sectionusagekotlin" onclick="display('sectionusagekotlin')" class="design">Click For more Details</a> <br />
+            <a href="https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom.svg/-s-v-g-a-element/download.html" target="_blank">
+                <button class="butn">Download Now</button></a>
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary butn" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionusagekotlin">
+        <p class="detail-head">
+            Kotlin is Open-Source and The very first thing you should know about Kotlin is that it is an open-source programming language. But, apart from being open-source, Kotlin also provides a single-click tool using which, developers can convert existing Java code.
+            And if you’re an Android app developer who is new to Kotlin and interested in learning it from scratch, we recommend starting with the beginner course available on Udemy and Udacity. These courses will help you to sharpen your skills.<br />
+
+            Kotlin Supports Full Java Interoperability
+            One of the major as well as the best features of Android Kotlin is its deep interoperability with Java. This, in fact, has attracted many Java developers as well as Android app developers to learn Kotlin.
+            <br />
+
+            it basically runs on JVM and also supports Java libraries as well as tools, providing full Java interoperability.
+            <br />
+
+            Both the languages co-exist, and this makes it easier for developers to be productive. Developers can easily compile one Android project in both languages with the help of this feature – interoperability function.
+            <br />
+
+            This will allow the developer to switch the programming language instead of changing the codes. It will also save time for them to develop more Android apps.
+            <br />
+
+            It can show 100% interoperable. So, if you need access to a Kotlin method from a Java class or vice versa, you can do it without any extra parameters.
+            <br />
+
+            Kotlin Comes With Lazy-Loading Feature
+            The lazy-loading feature basically increases the startup time, which is very useful when using it for Android development.
+            <br />
+
+            In simple words, it’s the best solution for all developers who want to reduce their Android app startup time so that their apps’ content can be shown faster.
+            <br />
+
+            With the lazy-loading feature, Android developers can load the only resources into main memory which are necessary. If you are looking for this feature, then Kotlin is the best choice.
+            <br />
+
+            For example, if you have a shopping app, the majority of users will only browse your selection, that means you could have the payment API be lazy loaded.
+            <br />
+            Data Classes in Kotlin
+            The necessity of a class is always argued by programming language designers/makers. Typically, a data class in Java contains lots of boilerplate code which developers have to skip in order to find out the real use of that class.
+            <br />
+
+            But now in Kotlin, Android developers can write the equivalent of the same Java code in a simple manner, and with lesser code. Therefore, the data classes in Kotlin are also known to be one of the useful features.
+            <br />
+            Collection Filtering
+            We all know that when working with an API, we developers need to deal with collections quite often. But by using Kotlin’s collection filtering feature, it’s easier to tell what your resulting list should contain.
+            <br />
+            In fact, filtering a collection using the built-in Kotlin is very comparable to other programming languages such as Swift collection types or Java 8 streams.
+            <br />
+            Do You Have an Android App Idea?
+            <br />
+
+            Want to validate your app idea? Want to get a free consultation from our Android experts?
+            <br />
+
+            Cta Image
+            Extension Functions
+            Extensions of this language are very useful because they allow developers to add methods to classes without making changes to their source code.
+            <br />
+            Just like Scala’s implicit methods, in Kotlin you can add methods on a per-user basis to classes. For instance, have you ever tried Activity had some method like Hidekeyboard()?
+
+            Well, with its extensions you can achieve it. Here’s how:
+            <br />
+
+            Program
+            fun Activity.hideKeyboard(): Boolean {
+            val view = currentFocus
+            view?.let {
+            val inputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE)
+            as InputMethodManager
+            return inputMethodManager.hideSoftInputFromWindow(view.windowToken,
+            InputMethodManager.HIDE_NOT_ALWAYS)
+            }
+            return false
+            }
+            <hr />
+            <br />
+
+            In fact, with Kotlin extensions there is no need to have utility methods or classes, which can improve the readability of your code drastically as a result.
+            <br />
+            Reduces Crashes at Runtime
+            This is the most advanced feature, where it is easy to identify the NullPointerException while compiling your Android app development project.
+            <br />
+            This will ensure that every variable works as a non-null, and it helps in reducing the number of crashes at runtime.
+            <br />
+            Moreover, if you decided to hold on to a null value, then reduce the number of crashes by appending a question mark at the end of the variable type. This way, you can easily reduce crashes at runtime.
+            <br />
+            Smart Cast Function
+            From a developer’s perspective, it is one of the best features. This is because it effectively reduces the application’s speed and focuses on improving the performance of the app.
+            <br />
+            The main work of the smart cast function is to identify the type of function. This will perform all operations that are coded for a specific type and also improve the efficiency of the code.
+            <br />
+            Suppose you want to identify a string. Now with the help of the smart cast function, you can easily copy, count the length, and perform other functions on the string type.
+            <br />
+            Safe and Reliable
+            This feature of Kotlin is one of the strongest because this language is relatively safe, and you can use it without any fear. Moreover, avoiding errors such as “NullPointException” can be possible with the Null Safe function.
+            <br />
+            You can also easily avoid use of nullable types and automatically remove mistakes. This will help you to simplify your code for debugging and operations of Android app development.
+            <br />
+            Low Cost
+            This is one of the reasons for Kotlin to be on the priority list of many entrepreneurs. This programming language is the no or low cost of adoption that is associated with it for its usage.
+            <br />
+            It is open-source, so you do not have to spend over Kotlin for its license. Additionally, if we compare Kotlin with other programming languages, then it is also easy and quick to learn for developers.
+            <br />
+            Clean and Compact Syntax
+            This programming language is way ahead of Java when it comes to syntax and clarity of the code. With the help of Kotlin, you get things done with only a few lines of code.
+            <br />
+            It is also for the developer to work with less code and Kotlin makes it more reliable with fewer errors and bugs.
+            <br />
+            Moreover, clean and compact syntax and code offer an array of benefits, such as easy maintenance, easy-to-read code, and easy incorporating changes at times of need.
+            <br />
+            Standard Library Functions
+            The benefit of using Kotlin is that it offers standard library functions. This is the most important factor for all Android developers to work on an Android mobile app development project.
+            <br />
+            You can easily make the implementations of higher-order functions with the help of idiomatic patterns, such as let, apply, use, and others, with much ease.
+            <br />
+            Moreover, it also has multiple utilities to work with char and string sequences. With the help of Extension functions, you get query operations for sequences and collections. Also, Kotlin’s JDK classes can be helpful in working with IO, files, and threading with more convenience.
+            <br />
+            You know the exclusive features of Kotlin, but what about those features that Kotlin has but not Java. Let’s have a look at those features in the next section.
+            <br />
+            Features That Kotlin Has But Not Java
+            Here is the list of the features that Kotlin has but not Java programming language. Check why Kotlin can be an ideal choice for Android app development over Java.
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary butn" onclick="display('sectionkotlin')">Back</button>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js">
+    </script>
+</body>
+
+</html>
