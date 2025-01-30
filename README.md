@@ -1,4 +1,12 @@
-My static website Project:
-"Just completed a new project: It is a fully static website built using HTML and CSS! 
-This project showcases my skills in front-end web development, focusing on clean design, optimized performance, and user-friendly interface. Excited to learn more!"
-This static website used to shows all programming languages and their features. If we want to install the Software we can download from this website.
+Title: Programming Languages & Software Download Hub 🌐
+Description:
+A simple static website that provides an overview of various programming languages along with their key features. Users can explore different languages, understand their benefits, and download the required software directly through provided links.
+
+Tech Stack: HTML, CSS
+✅ Comprehensive list of programming languages
+✅ Key features and benefits of each language
+✅ Direct software download links
+✅ Simple and user-friendly interface
+
+Explore and download programming tools with ease! 🚀
+
